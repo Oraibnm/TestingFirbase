@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:text="Log In"></TextView>
+
+    <EditText
+        android:id="@+id/eamil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="eamil"
+        android:layout_marginTop="30dp"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:layout_marginTop="30dp"
+        ></EditText>
+
+
+    <Button
+        android:id="@+id/Loginbtn"
+        android:layout_width="197dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="login"></Button>
+
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="197dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Register"></Button>
+
+    <Button
+        android:id="@+id/forgetPassword"
+        android:layout_width="197dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="I Forget Password"></Button>
+
+    <Button
+        android:id="@+id/phoneNumber"
+        android:layout_width="197dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Login phone number"></Button>
+
+
+    <!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="52dp"-->
+<!--        android:layout_marginTop="30dp"></TextView>-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/username"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Name"-->
+<!--        android:layout_marginTop="30dp"-->
+
+<!--&gt;</EditText>-->
+
+
+<!--    <Button-->
+<!--        android:id="@+id/btn"-->
+<!--        android:layout_width="197dp"-->
+<!--        android:layout_height="68dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:text="login to firebase"></Button>-->
+
+</LinearLayout>
